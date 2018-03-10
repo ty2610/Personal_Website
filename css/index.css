@@ -1,0 +1,40 @@
+body {
+    background-image:url('../images/green_background.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.round_Pictures {
+    border-radius: 1rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.header_Row {
+    padding: 1rem 0rem;
+}
+
+.content_Col {
+    padding: 1rem 1rem;
+}
+
+.header_Text {
+    font-size: 2rem;
+    color: ghostwhite;
+    text-shadow:
+            -1px -1px 0 #6c757d,
+            1px -1px 0 #6c757d,
+            -1px 1px 0 #6c757d,
+            1px 1px 0 #6c757d;
+}
+
+.hide_content {
+    display: none;
+}
+
+.content_text {
+    font-size: 1em;
+    font-size: calc(.5vw + 1.25vh + .5vmin);
+    padding: 10px 20px;
+}
