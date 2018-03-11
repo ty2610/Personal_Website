@@ -7,7 +7,7 @@ $(document).ready(function() {
         var pageSrc = $(this).children("a").text();
         var modal = $("#descriptionModal");
         $("#modalSubPic").attr("src",pictureSrc);
-        $("#descriptionModalPreview").text($(this).children("p").text());
+        $("#descriptionModalPreview").html($(this).children("p").html());
         $("#descriptionModalTitle").text($(this).children("h1").text());
         $("#descriptionModalLink").attr("href", pageSrc);
         modal.modal('show');
